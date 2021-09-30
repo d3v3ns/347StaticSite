@@ -10,14 +10,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #EDA295;
-  margin: 0% 5%;
+  margin: 0% 5% 1% 1%;
 }
 
-p {
+.intro_header {
   display: flex;
-  justify-content: center;
   font-size: larger;
-  width: 50%;
+
   background-color: #ec816e;
   border-style: solid;
   border-color: #333;
@@ -29,12 +28,16 @@ figcaption {
   border-style: solid;
   border-color: #333;
   font-size: larger;
-  width: 50%;
+  padding: .5%;
 }
 
 img {
   width: 100%;
   max-width: 500px;
+}
+
+.welcome {
+  max-width: 985px;
 }
 
 .banner {
