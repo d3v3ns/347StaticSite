@@ -1,22 +1,54 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   margin: 0;
+  background-color: #EDA295;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  background-color: #EDA295;
+  margin: 0% 5%;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  width: 50%;
+  background-color: #ec816e;
+  border-style: solid;
+  border-color: #333;
+  padding: 1%;
+}
+
+figcaption {
+  background-color: #ec816e;
+  border-style: solid;
+  border-color: #333;
+  font-size: larger;
+  width: 50%;
+}
+
+img {
+  width: 100%;
+  max-width: 500px;
 }
 
 .banner {
   font-size: 5em;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   background-color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 
 .mainnav {
     background-color: #333;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow: hidden;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   /* Style the links inside the navigation bar */
@@ -41,6 +73,7 @@ body {
     color: white;
   }
 
+ 
 
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
@@ -65,3 +98,4 @@ body {
     text-align: left;
   }
 }
+
