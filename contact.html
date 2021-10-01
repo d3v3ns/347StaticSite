@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/menu.js"></script>
     <meta charset="UTF-8">
@@ -31,6 +32,24 @@
         </div>
     </nav>
 
-    <div><textarea id="feedback"></textarea></div>
+    <div class="contact-form">
+            
+    <h1>Contact us!</h1>
+    <h2>Phone: (540)-888-8888</h2>
+    <h2>email: bucketlistva@gmail.com</h2>
+    <h2>Have an attraction in mind that we missed? Visit somewhere we suggested and want to share? Feel free to contact us with any recomendations or positive experiences you had while visiting Virginia!</h2>
+
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label for="lname">email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your email..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input class="button" type="submit" value="Submit">
+    </div> 
+
 </body>
 </html>
